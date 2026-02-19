@@ -16,7 +16,7 @@ https://heltonmaia.com/pythonbook/intro.html
 
 ## – Exercício 01 –
 
-Arquivo: `lista1_ex01.py`
+Arquivo: `capitulo1/ex01.py`
 
 ### Enunciado
 
@@ -40,7 +40,7 @@ print("Hello World!!")
 
 ## – Exercício 02 –
 
-Arquivo: `lista1_ex02.py`
+Arquivo: `capitulo1/ex02.py`
 
 ### Enunciado
 
@@ -74,7 +74,7 @@ print(f"Olá {nome} Matrícula: {matricula} Seja bem-vindo!")
 
 ## – Exercício 03 –
 
-Arquivo: `lista1_ex03.py`
+Arquivo: `capitulo1/ex03.py`
 
 ### Enunciado
 
@@ -125,7 +125,7 @@ print(f"Pedido confirmado: {produto} \nValor total: R${valor * quantidade:.2f} \
 
 ## – Exercício 01 –
 
-Arquivo: `lista2_ex01py`
+Arquivo: `capitulo2/ex01.py`
 
 ### Enunciado
 
@@ -170,7 +170,7 @@ print(f"Soma: {a + b} \nSubtração: {b - a} \nMultiplicação: {a * b} \nDivis�
 
 ## – Exercício 02 –
 
-Arquivo: `lista2_ex02py`
+Arquivo: `capitulo2/ex02.py`
 
 ### Enunciado
 
@@ -216,7 +216,7 @@ print(f"{quant_caracteres} \n{primeira_letra} \n{ultima_letra} \n{string_inverti
 
 ## – Exercício 03 –
 
-Arquivo: `lista2_ex03py`
+Arquivo: `capitulo2/ex02.py`
 
 ### Enunciado
 
