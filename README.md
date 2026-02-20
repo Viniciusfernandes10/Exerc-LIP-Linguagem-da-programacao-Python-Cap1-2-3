@@ -216,7 +216,7 @@ print(f"{quant_caracteres} \n{primeira_letra} \n{ultima_letra} \n{string_inverti
 
 ## – Exercício 03 –
 
-Arquivo: `capitulo2/ex02.py`
+Arquivo: `capitulo2/ex03.py`
 
 ### Enunciado
 
