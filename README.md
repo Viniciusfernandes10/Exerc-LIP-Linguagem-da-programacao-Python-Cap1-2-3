@@ -394,6 +394,7 @@ Escreva um programa que solicite ao usuário a inserção de duas coordenadas (x
 **Teste 1**
 
 Entrada: 
+
 2.5
 
 3.8
@@ -404,14 +405,10 @@ Coordenadas: (2.5, 3.8)
 **Teste 2**
 
 Entrada:
+
 -1.0
 
 0.0
-
-Saída:
-85
-
-1.60
 
 Saída: 
 Coordenadas: (-1.0, 0.0)
