@@ -178,23 +178,30 @@ Escreva um programa que solicite ao usuário que insira uma palavra ou frase. Em
 
 ### Exemplo de saída esperada
 
-**Teste 1**
+## Teste 1
 
-Entrada:
-True
-true
+**Entrada:**
 
-Saída:
-São iguais
+A felicidade está nas pequenas coisas 
 
-**Teste 2**
+**Saída:**
 
-Entrada:
-True
-False
+37  
+A  
+s  
+sasioc saneuqep san átse edadicilef A  
 
-Saída:
-São diferentes
+## Teste 2
+
+**Entrada:**
+
+Entrada: A verdadeira liberdade está em conhecer a si mesmo 
+
+**Saída:**
+
+A  
+o  
+omsem is a recehnoc me átse edadrebil ariedadrev A  
 
 ### Resolução
 
@@ -227,8 +234,8 @@ Escreva um programa que compare duas strings fornecidas pelo usuário, considera
 **Teste 1**
 
 Entrada:
-True
-true
+True  
+true  
 
 Saída:
 São iguais
@@ -236,8 +243,8 @@ São iguais
 **Teste 2**
 
 Entrada:
-True
-False
+True  
+False  
 
 Saída:
 São diferentes
@@ -277,27 +284,25 @@ IMC | Classificação
 >= 40.0     | Obesidade grau III
 ### Exemplo de saída esperada
 
-**Teste 1**
+## Teste 1 
 
-Entrada: 
-71
-1.70
+**Entrada:**
+
+71  
+1.70  
 
 Saída: 
 Seu IMC é 24.57 (Saudável).
 
-**Teste 2**
+## Teste 2
 
-Entrada:
-True
-False
+**Entrada:**
 
-Saída:
-Entrada: 
-85
-1.60
+85  
+1.60  
 
-Saída: 
+**Saída:**
+
 Seu IMC é 33.20 (Obesidade grau I).
 
 ### Resolução
@@ -339,28 +344,30 @@ Arquivo: `capitulo2/ex05.py`
 
 Crie um programa que solicite ao usuário a inserção de cinco frutas diferentes. Antes da leitura dos dados, crie uma lista vazia chamada frutas. Em seguida, armazene as frutas fornecidas pelo usuário nessa lista e, ao final, imprima a lista completa na tela.
 
-**Teste 1**
+## Teste 1
 
-Entrada: 
-maçã
-banana
-laranja
-pera
-melancia
+**Entrada:**
+
+maçã  
+banana  
+laranja  
+pera  
+melancia  
 
 Saída: 
 Lista de frutas: ['maçã', 'banana', 'laranja', 'pera', 'melancia']
 
-**Teste 2**
+## Teste 2
 
-Entrada:
-uva
-abacaxi
-morango
-manga
-kiwi
+**Entrada:**
 
-Saída: 
+uva  
+abacaxi  
+morango  
+manga  
+kiwi  
+
+**Saída:**
 Lista de frutas: ['uva', 'abacaxi', 'morango', 'manga', 'kiwi']
 
 
@@ -391,26 +398,24 @@ Arquivo: `capitulo2/ex06.py`
 
 Escreva um programa que solicite ao usuário a inserção de duas coordenadas (x e y). Em seguida, crie uma tupla chamada coordenadas com esses valores e imprima o conteúdo da tupla na tela.
 
-**Teste 1**
+## Teste 1
 
-Entrada: 
+**Entrada:**
 
-2.5
+2.5  
+3.8  
 
-3.8
-
-Saída: 
+**Saída:**
 Coordenadas: (2.5, 3.8)
 
-**Teste 2**
+## Teste 2
 
-Entrada:
+**Entrada:**
 
--1.0
+-1.0  
+0.0  
 
-0.0
-
-Saída: 
+**Saída:**
 Coordenadas: (-1.0, 0.0)
 
 
@@ -440,31 +445,26 @@ Arquivo: `capitulo2/ex07.py`
 
 Crie um dicionário chamado contato. Solicite ao usuário que forneça os dados correspondentes às chaves "nome", "telefone" e "endereco". Em seguida, imprima o conteúdo completo do dicionário.
 
-**Teste 1**
+## Teste 1
 
-Entrada: 
+*Entrada:*
 
-Python da Silva
+Python da Silva  
+8499999999  
+Rua da Programação, 123  
 
-8499999999
-
-Rua da Programação, 123
-
-
-Saída: 
+**Saída:**
 Nome: Python da Silva, Telefone: 8499999999, Endereço: Rua da Programação, 123.
 
-**Teste 2**
+## Teste 2
 
-Entrada:
+*Entrada:*
 
-João da Silva
+João da Silva  
+9876543210  
+Avenida dos Códigos, 456  
 
-9876543210
-
-Avenida dos Códigos, 456
-
-Saída: 
+*Saída:*
 Nome: João da Silva, Telefone: 9876543210, Endereço: Avenida dos Códigos, 456.
 
 
@@ -500,28 +500,28 @@ Arquivo: `capitulo2/ex08.py`
 
 Crie, antes da leitura dos números, um conjunto vazio chamado numeros utilizando a função set(). Em seguida, armazene os valores fornecidos pelo usuário nesse conjunto, utilizando o método .add(). Ao final, exiba o conjunto completo na saída.
 
-**Teste 1**
+# Teste 1
 
-Entrada: 
+*Entrada:*
 
-3
-5
-7
-9
-11
+3  
+5  
+7  
+9  
+11  
 
 Saída: 
 {3, 5, 7, 9, 11}
 
-**Teste 2**
+## Teste 2
 
-Entrada:
+*Entrada:*
 
--2
-0
-4
-6
-8
+-2  
+0  
+4  
+6  
+8  
 
 Saída: 
 {0, 4, 6, 8, -2}
@@ -560,41 +560,39 @@ Interseção: encontrar os elementos que estão presentes em ambos os conjuntos.
 
 Diferença: identificar os elementos que estão em conjunto_a, mas não em conjunto_b.
 
-**Teste 1**
+## Teste 1
 
-Entrada: 
+*Entrada:*
 
-3
-5
-7
-7
-9
-11
+3  
+5  
+7  
+7  
+9  
+11  
 
-Saída: 
-União: {3, 5, 7, 9, 11}
+*Saída:*
 
-Interseção: {7}
+União: {3, 5, 7, 9, 11}  
+Interseção: {7}  
+Diferença: {3, 5}  
 
-Diferença: {3, 5}
+## Teste 2
 
-**Teste 2**
+*Entrada:*
 
-Entrada:
+1  
+2  
+3  
+4  
+5  
+1  
 
-1
-2
-3
-4
-5
-1
+*Saída:*
 
-Saída: 
-União: {1, 2, 3, 4, 5}
-
-Interseção: {1}
-
-Diferença: {2, 3}
+União: {1, 2, 3, 4, 5}  
+Interseção: {1}  
+Diferença: {2, 3}  
 
 ### Resolução
 
